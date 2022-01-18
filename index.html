@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Roll Dice Game</title>
+  </head>
+  <body>
+    <div class="upper-section">
+      <h1>Simple - Roll Dice Game</h1>
+      <h3 id="curent-player-section">
+        Player <span id="current-player-id"></span> turns
+      </h3>
+    </div>
+    <main>
+      <section id="player1-section" class="player">
+        <h2>Player 1</h2>
+        <p>Score: <span id="player-1-score"></span></p>
+      </section>
+      <section id="dice-section">
+        <img id="dice" />
+        <!-- <img id="dice" src="assets/images/dice1.png" /> -->
+        <button id="dice-btn">Roll Dice</button>
+        <button id="reset-btn">Reset</button>
+      </section>
+      <section id="player2-section" class="player">
+        <h2>Player 2</h2>
+        <p>Score: <span id="player-2-score"></span></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

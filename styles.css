@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+
+.upper-section {
+  height: 15vh;
+  text-align: center;
+}
+.upper-section h3 {
+  font-style: italic;
+}
+main {
+  height: 85vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.player,
+#dice-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 2rem;
+}
+body {
+  background-color: rgb(109, 24, 24);
+  color: white;
+}
+
+.box {
+  background-color: rgba(226, 24, 35, 0.4);
+  box-shadow: rgb(0 0 0 / 50%) 0px -6px 6px -6px;
+  /* box-shadow values got from internet ,want the box-shadow at top side */
+}
+.winner {
+  font-size: 3rem;
+}
+
+.playerTurnStrike {
+  text-decoration: line-through;
+}
